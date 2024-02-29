@@ -12,7 +12,7 @@ public class Main {
 
         while (!salir) {
             try {
-                strOpcion = JOptionPane.showInputDialog("Introduzca la operación deseada \n1-suma \n2-resta \n3-multiplicación, \n4-división \n5-salir ");
+                strOpcion = JOptionPane.showInputDialog("Introduzca la operación deseada \n1-suma \n2-resta \n3-multiplicación \n4-división \n5-salir ");
                 opcion = Double.parseDouble(strOpcion);
 
                 switch ((int) opcion) {
